@@ -1,2 +1,5 @@
-# numpy-practice
-Comprehensive NumPy practice repository covering arrays, indexing, broadcasting, linear algebra, and mini projects from beginner to advanced level.
+# NumPy Practice
+
+This repository contains my hands-on practice of NumPy from beginner to advanced level.
+
+Topics will be updated as I progress
