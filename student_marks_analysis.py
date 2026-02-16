@@ -1,12 +1,31 @@
 import numpy as np
-#student names
-students = np.array(['tom','sam','john','tony','josh'])
-# marks matrix , rows student , column subject
-marks = np.array([[67,78,88],
-                  [77,87,82],
-                  [56,88,92],
-                  [89,91,93],
-                  [86,73,89]])
+
+n = int(input("enter number of student:"))
+s = int(input("enter number of subject:"))
+
+student = []
+mark_list = []
+
+for i in range(n):
+  name = input(f"\nstudent name {i+1} : ")
+  student.append(name)
+
+  student_marks = []
+  for j in range(s):
+    while True:
+        mark = int(input(f"\nenter marks of subject {j+1} : "))
+
+        if 0 <= mark <= 100:
+          student_marks.append(mark)
+          break
+        else:
+          print("Marks must be between 0 and 100. Try again")
+
+  mark_list.append(student_marks)
+
+students = np.array(student)
+marks = np.array(mark_list)
+
 print("original matrix:")
 print(marks)
 
