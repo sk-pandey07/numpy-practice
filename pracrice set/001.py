@@ -13,3 +13,5 @@ print(arr[1:5])
 
 print("\nReverse array")
 print(arr[::-1])
+
+print(arr[::2])
