@@ -15,3 +15,7 @@ print(index)
 print("\nsub-matrix of upper left")
 sub_matrix = arr[0:2 , 0:2]
 print(sub_matrix)
+
+# Sab elements ko 2 se multiply karo
+print("\nmultiply sub_matrix with 2")
+print(sub_matrix * 2)
