@@ -11,3 +11,7 @@ print(arr[1])
 print("\nfind index of 5")
 index = np.where(arr == 5)
 print(index)
+
+print("\nsub-matrix of upper left")
+sub_matrix = arr[0:2 , 0:2]
+print(sub_matrix)
