@@ -13,3 +13,7 @@ print(multi)
 
 div = a / b
 print(div)
+
+print(np.square(sum))
+print(np.sqrt(sum))
+print(np.dot(a,b))
