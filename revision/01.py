@@ -5,3 +5,8 @@ arr = np.array([[1,2,3],
 
 print("Original Matrix:")
 print(arr)
+
+rev = arr[::-1]
+
+print("Reversed Matrix:")
+print(rev)
